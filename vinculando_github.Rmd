@@ -164,6 +164,8 @@ writeLines("hola", here::here("R","prueba-here.R"))
 # también podemos hacerlo así
 usethis::use_r("archivo-prueba-github.R") # añade archivo al directorio R del proyecto actual
 # Por ejemplo podríamos probar añadir algo nuevo
+
+
 gert::git_add("R/archivo-prueba-github.R")
 # añadimos commit de lo que se hizo
 gert::git_commit("se subio archivo prueba")
